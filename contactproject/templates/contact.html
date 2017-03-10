@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Contact Detail</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<br/>
+		<div class="row">
+			<div align="center" class="col-xs-8 col-xs-offset-2"><img src="/static/img/photo.svg" class="img-responsive img-circle"/></div>
+		</div>
+		<div class="row">
+			<div align="center" class="col-xs-12"><h2>{{ contact[1] }}</h2></div>
+		</div>
+		<hr/>
+		<div class="row">
+			<div class="col-xs-12"><label>Specialization</label></div>
+			<div class="col-xs-12">{{ contact[16] }}</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12"><label>Website</label></div>
+			<div class="col-xs-12">{{ contact[7] }}</div>
+		</div>
+		<br/>
+		<div class="embed-responsive embed-responsive-4by3">
+			<iframe
+			  width="350"
+			  height="300"
+			  frameborder="0" style="border:0"
+			  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBG2w5Knr2JF9lz4dE7Gs8GQNuNfh-vc7U
+			    &q={{ contact[8] }}{{ contact[9] }}{{ contact[10] }}{{ contact[11] }}{{ contact[13] }}" allowfullscreen>
+			</iframe>
+		</div>
+	</div>
+</body>
+</html>

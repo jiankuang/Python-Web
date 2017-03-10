@@ -1,0 +1,83 @@
+*.pyc
+# don't include third-party dependencies.
+!lib/README.md
+.DS_Store
+.idea
+
+.coveralls.yml
+*.pyc
+.coverage
+.tox
+coverage.xml
+python-docs-samples.json
+service-account.json
+client-secrets.json
+__pycache__
+*db\.sqlite3
+managed_vms/django_tutorial/static/*
+**/migrations/*
+lib
+testing/resources/test-env.sh
+testing/resources/service-account.json
+testing/resources/client-secrets.json
+secrets.tar
+.cache
+junit.xml
+credentials.dat
+.nox
+
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+__pycache__
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# OS X Generated Files #
+########################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+.AppleDouble
+
+*.elc
+*~
+*.aux
+*.log
+*.mx1
+.com.apple.timemachine.supported
