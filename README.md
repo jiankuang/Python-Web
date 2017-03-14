@@ -22,7 +22,7 @@ Flask is a “microframework” primarily build for a small application with sim
 Django can also used for larger applications.  It includes an ORM.
 
 ### Coding Questions
-#### How would you modify the definition of `extendList` to produce the presumably desired behavior?
+#### What will be the output of the code below? Explain your answer.
 ```python
 def extendList(val, list=[]):
     list.append(val)
@@ -42,6 +42,7 @@ list1 = [10, 'a']
 list2 = [123]
 list3 = [10, 'a']
 ```
+##### How would you modify the definition of `extendList` to produce the presumably desired behavior?
 The definition of the extendList function could be modified as follows
 ```python
 def extendList(val, list=None):
