@@ -57,3 +57,27 @@ list1 = [10]
 list2 = [123]
 list3 = ['a']
 ```
+
+#### What will be the output of the code below? Explain your answer.
+```python
+class Parent(object):
+    x = 1
+
+class Child1(Parent):
+    pass
+
+class Child2(Parent):
+    pass
+
+print Parent.x, Child1.x, Child2.x
+Child1.x = 2
+print Parent.x, Child1.x, Child2.x
+Parent.x = 3
+print Parent.x, Child1.x, Child2.x
+```
+The output of the above code will be:
+```
+1 1 1
+1 2 1
+3 2 3
+```
