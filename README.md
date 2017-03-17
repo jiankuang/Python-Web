@@ -1,5 +1,6 @@
 # Python
-Python Learning Notes
+## Python Interpreter
+On Windows machines, the Python installation is usually placed in `C:\Python27`
 
 ## Decorator
 
